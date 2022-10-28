@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url(./cat-1185453_960_720.png);
+    background-color: #9c037b;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: rgb(1, 0, 2);
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+span{
+    color: #e856c3;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+
+nav ul li a{
+    color: #f1e6ed;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:#6f0570;
+    transform: .4s;
+}
+
+nav ul li{
+    background-color: #ec06a7;
+    color: rgb(1, 0, 0);
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+
+nav ul li a:hover{
+    background-color: transparent;
+    border: 2px solid rgb(3, 0, 0);
+    cursor: pointer;
+}
+
+body {
+    background-color:  #9c037b;
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid pink;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+.team {
+    width: 100px;
+    height: 100vh;
+}
+
+.team-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+
+.team-list li {
+    list-style-type:none;
+}
+
+.team-figure{
+    width: 160px;
+    height: 160px;
+
+    border-radius:50%;
+    overflow: hidden;
+}
+
+.team-figure{
+    width: 100%;
+    filter: grayscale();
+}
+
+.team-link :hover .team-figure img{
+    filter: none;
+}
+
+.team-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.team-description:target {
+    display: flex;
+}
+
+.team-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
