@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contatojoias.css" />
+    <script src="contato.js"></script>
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      />
+    <title>Formulário de Contato</title>
+    <div class="background">
+        <nav>
+            <h2 class="logo">Jóias<span>Soul<i class="fas fa-cat"></i></h2></a><!--Logo-->
+            <ul class="cabeçalho-link">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./QuemSomosJoias.html">Quem Somos</a></li>
+                <li><a href="lojinha.html">Nossos Produtos</a></li>
+                <li><a href="./NossaEquipe.html">Nossa Equipe</a></li>
+                <li><a href="./contato Joias.html">Contato</a></li>
+            </ul>
+        </nav>
+
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Endereço</div>
+          <div class="text-one">Nome da rua, numero123</div>
+          <div class="text-two">Bairro Cidade</div>
+        </div>
+        <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Telefone</div>
+            <div class="text-one">+00 00 1234 5678</div>
+            <div class="text-two">+00 00 1234 5678</div>
+        </div>
+        <div class="address details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">joiassoul@gmail.com</div>
+          <div class="text-two">+lojajoiassoul@gmail.com</div>
+    </div>
+  </div>
+  <div class="right-side">
+    <div class="topic-box">Envie sua mensagem</div>
+    <p>
+      Dúvidas? Voçe pode enviar mensagem aqui.
+    </p>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Digite seu nome">
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Digite seu email">
+            </div>
+            <div class="input-box massage-box">
+                <textarea placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button onclick="Enviar()">ENVIAR MENSAGEM</button> <!-- inicio js-->
+            <script>
+            function Enviar() {
+            alert("Mensagem Enviada!");
+            }
+            </script> <!-- final js-->
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--Rodapé--->
+    <footer>
+        <h6>Jóias Soul</h6><i class="fas fa-cat"></i>
+      <p>Para mais - por favor clique no link abaixo para seguir nas redes socias</p>
+      <div class="Redes-sociais">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div><!--Redes-sociais-->
+      <p class="end">CopyRight By Grupo Galático.</p>
+  </footer>
+  </body>
+</html>
